@@ -10,6 +10,8 @@
   <input bindinput="handle5Xian1Jin" placeholder="您的5险1金总额"></input>
 </view>
 
+<button bindtap="goto5xian">先计算5险1金</button>
+
 <view>
   <view>请输入您的专项款项总额：</view>
   <input bindinput="handleSpecificSum" placeholder="你需扣除的专项总额"></input>

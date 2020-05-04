@@ -1,2 +1,27 @@
 <!--pages/five/five.wxml-->
-<text>pages/five/five.wxml</text>
+<view>
+  <text>您的税前薪资总额：</text>
+  <input placeholder="税前薪资总额" bindinput="handleMoney"></input>
+</view>
+
+<view>
+  <text>请输入您参保地的养老保险占比： </text>
+  <input placeholder="养老保险占比" bindinput="handleOldInput"></input>
+</view>
+
+<view>
+  <text>请输入您参保地的医疗保险占比： </text>
+  <input placeholder="医疗保险占比" bindinput="handleMedicineInput"></input>
+</view>
+
+<view>
+  <text>请输入您参保地的失业保险占比： </text>
+  <input placeholder="失业保险占比" bindinput="handleLostInput"></input>
+</view>
+
+<view>
+  <text>请输入您参保地的住房公积金占比： </text>
+  <input placeholder="住房公积金占比" bindinput="handleHomeInput"></input>
+</view>
+
+<button bindtap="calResult">计算</button>
