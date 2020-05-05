@@ -1,1 +1,23 @@
 /* pages/main/main.wxss */
+
+button{
+  color: black;
+}
+
+view,input{
+  margin: 8rpx;
+  color:var(--themeColor);
+}
+
+#money{
+  color: red;
+}
+
+input{
+  margin-bottom: 16rpx;
+}
+
+
+
+
+
