@@ -53,7 +53,7 @@ Page({
     } else {
       taxValue = base * 0.35 + (5000 * 0.05) + (5000 * 0.1) + (20000 * 0.2) + (20000 * 0.3);
     }
-    console.log("tax: " + taxValue)
+    console.log("tax:   " + taxValue)
     this.setData({
       tax: taxValue
     })
